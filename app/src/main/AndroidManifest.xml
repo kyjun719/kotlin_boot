@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".joyce.ui.StartActivity"
+            android:theme="@style/JoyceAppTheme"
+            />
     </application>
 
 </manifest>
