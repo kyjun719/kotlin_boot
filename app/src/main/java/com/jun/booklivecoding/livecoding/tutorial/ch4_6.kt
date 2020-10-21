@@ -1,4 +1,4 @@
-package com.jun.booklivecoding.livecoding
+package com.jun.booklivecoding.livecoding.tutorial
 
 class ch4_6() {
     fun ch1() {

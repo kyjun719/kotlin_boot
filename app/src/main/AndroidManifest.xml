@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".joyce.ui.StartActivity"
+        <activity android:name=".joyce.ui.JoyceStartActivity"
             android:theme="@style/JoyceAppTheme"
             />
+        <activity android:name=".livecoding.LiveCodingStartActivity" />
+        <activity android:name=".livecoding.bmicalculator.BmiActivity" />
     </application>
 
 </manifest>

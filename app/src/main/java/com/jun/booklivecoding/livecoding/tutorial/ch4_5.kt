@@ -1,6 +1,4 @@
-package com.jun.booklivecoding.livecoding
-
-import java.util.*
+package com.jun.booklivecoding.livecoding.tutorial
 
 class ch4_5() {
     fun ch1() {

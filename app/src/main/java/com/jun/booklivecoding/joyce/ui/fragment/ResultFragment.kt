@@ -28,7 +28,7 @@ class ResultFragment : Fragment(), View.OnClickListener {
         option = arguments?.getInt("index")?:-1
 
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_result, container, false)
+        return inflater.inflate(R.layout.fragment_bmi_result, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

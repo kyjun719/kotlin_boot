@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_main"
+    app:startDestination="@id/bmiStartFragment">
+    <fragment
+        android:id="@+id/bmiResultFragment"
+        android:name="com.jun.booklivecoding.livecoding.bmicalculator.BmiResultFragment"
+        android:label="BmiResultFragment" />
+    <fragment
+        android:id="@+id/bmiStartFragment"
+        android:name="com.jun.booklivecoding.livecoding.bmicalculator.BmiStartFragment"
+        android:label="BmiStartFragment" >
+        <action
+            android:id="@+id/action_bmiStartFragment_to_bmiResultFragment"
+            app:destination="@id/bmiResultFragment" />
+    </fragment>
+</navigation>

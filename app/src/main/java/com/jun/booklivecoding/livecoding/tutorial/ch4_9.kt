@@ -1,4 +1,4 @@
-package com.jun.booklivecoding.livecoding
+package com.jun.booklivecoding.livecoding.tutorial
 
 import java.util.*
 

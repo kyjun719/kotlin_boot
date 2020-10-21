@@ -1,4 +1,4 @@
-package com.jun.booklivecoding.livecoding
+package com.jun.booklivecoding.livecoding.tutorial
 
 class ch4_8 {
     //자바와 동일하게 상속은 하나만 가능하며, 인터페이스는 다중 구현이 가능함

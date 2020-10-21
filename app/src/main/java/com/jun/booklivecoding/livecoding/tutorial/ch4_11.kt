@@ -1,6 +1,4 @@
-package com.jun.booklivecoding.livecoding
-
-import android.widget.Button
+package com.jun.booklivecoding.livecoding.tutorial
 
 class ch4_11 {
     fun ch1() {

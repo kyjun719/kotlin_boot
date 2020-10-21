@@ -35,7 +35,7 @@
         android:id="@+id/resultFragment"
         android:name="com.jun.booklivecoding.joyce.ui.fragment.ResultFragment"
         android:label="fragment_result"
-        tools:layout="@layout/fragment_result" >
+        tools:layout="@layout/fragment_bmi_result" >
     </fragment>
     <fragment
         android:id="@+id/selectionFragment"

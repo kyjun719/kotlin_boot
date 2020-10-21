@@ -9,7 +9,7 @@ import com.jun.booklivecoding.R
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.activity_start.*
 
-class StartActivity: AppCompatActivity() {
+class JoyceStartActivity: AppCompatActivity() {
     lateinit var navController : NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
