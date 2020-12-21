@@ -13,7 +13,7 @@ class Empty
 // 생성자
 // 코틀린의 클래스는 주 생성자와 하나이상의 부 생성자를 가질수 있음
 // 주 생성자는 클래스 헤더에 포함됨
-class Person constructor(firstName: String) {  }
+open class Person constructor(firstName: String) {  }
 
 // 주 생성자가 어떤 애노테이션이나 접근 수정자를 가지고 있지 않으면 constructor 키워드는 생략될 수 있음
 class Person2(firstName: String) {  }
